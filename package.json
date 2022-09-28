@@ -1,0 +1,36 @@
+{
+	"id": "55",
+	"name": "@nutui/nutui-uni",
+	"version": "1.0.0",
+	"description": "",
+	"author": "tone-lyle",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tone-lyle/nutui"
+	},
+	"scripts": {
+		"build:lib": "node build/index.js lib",
+		"build:npm": "node build/index.js npm",
+		"build:release": "node build/index.js release",
+		"build:readme": "node build/index.js readme",
+		"dev:docs": "vuepress dev docs",
+		"build:docs": "vuepress build docs"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"dart-sass": "^1.25.0",
+		"postcss-comment": "^2.0.0",
+		"sass-loader": "^8.0.2",
+		"vue-template-compiler": "^2.6.11",
+		"vuepress": "^1.5.2",
+		"vuepress-plugin-code-copy": "^1.0.6"
+	},
+	"browserslist": [
+		"Android >= 4",
+		"ios >= 8"
+	],
+	"uni-app": {
+		"scripts": {}
+	}
+}
